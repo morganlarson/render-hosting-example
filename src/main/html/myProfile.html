@@ -123,7 +123,11 @@
                </div>
              </div>`,
       confirmButtonText: 'Create my profile!',
+      denyButtonText: 'No, thanks',
+      denyButtonColor: 'lightgrey',
+      showDenyButton: true,
       focusConfirm: false,
+      focusDeny: false,
       preConfirm: () => {
         const imageURL = Swal.getPopup().querySelector('#imageURLInput').value !== null ? Swal.getPopup().querySelector('#imageURLInput').value : ""
         const fullName = Swal.getPopup().querySelector('#fullNameInput').value !== null ? Swal.getPopup().querySelector('#fullNameInput').value : ""
