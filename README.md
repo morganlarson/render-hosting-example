@@ -104,7 +104,7 @@ To get a local copy up and running follow these simple steps.
 1. Fork the repo
 2. Clone the newly forked repo
    ```sh
-   git clone https://github.com/morganlarson/render-hosting-example.git
+   git clone https://github.com/your-github-username/render-hosting-example.git
    ```
 
 ### Hosting Instructions
